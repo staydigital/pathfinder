@@ -1,1 +1,1 @@
-<div></div>
+<div [ngClass]="(cellState$ | async).mode" (click)="cellClicked()"></div>
