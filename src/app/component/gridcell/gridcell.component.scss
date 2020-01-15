@@ -1,0 +1,23 @@
+div {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  height: 25px;
+  width: 25px;
+}
+
+.cell {
+  background-color: white;
+}
+
+.block {
+  background-color: black;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: blue;
+}
