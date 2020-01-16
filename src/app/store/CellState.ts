@@ -6,7 +6,8 @@ export enum CellMode {
 }
 
 export class CellState {
-  x: number
-  y: number
-  mode: CellMode
+  x: number;
+  y: number;
+  fcost: number;
+  mode: CellMode;
 }

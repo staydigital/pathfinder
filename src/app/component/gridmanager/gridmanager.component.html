@@ -1,7 +1,11 @@
 <table>
   <tr *ngFor="let r of [].constructor(20); let row = index">
-    <td *ngFor="let c of [].constructor(20); let column=index">
+    <td *ngFor="let c of [].constructor(20); let column = index">
       <app-gridcell [row]="row" [column]="column"></app-gridcell>
     </td>
   </tr>
 </table>
+
+<button (click)="this.setStartMode()">Start</button>
+<button (click)="this.setEndMode()">End</button>
+<button (click)="this.evaluateNext()">Evaluate Next</button>
