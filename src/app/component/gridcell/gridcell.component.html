@@ -2,4 +2,6 @@
   [ngClass]="(cellState$ | async).mode"
   (click)="cellClicked()"
   (contextmenu)="cellRightClicked()"
-></div>
+>
+  {{ (cellState$ | async).totalCost }}
+</div>
